@@ -3,28 +3,28 @@ XOR-AttriQA,,question answering,https://aclanthology.org/2023.emnlp-main.10/
 StrategyQA,,question answering,https://doi.org/10.1162/tacl_a_00370
 QReCC,,question answering,https://aclanthology.org/2021.naacl-main.44/
 SummEval,,summarization,https://doi.org/10.1162/tacl_a_00373
-ELI5,"ALCE, TRUST-ALIGN",question answering,https://aclanthology.org/P19-1346.pdf
+ELI5,"ALCE, Trust-Align, RAG-RewardBench",question answering,https://aclanthology.org/P19-1346.pdf
 MMLU,,question answering,https://openreview.net/forum?id=d7KBjmI3GmQ
-Wizard of Wikipedia,BEGIN,grounded text generation,https://openreview.net/forum?id=r1l73iRqKm
-CMU-DoG,BEGIN,grounded text generation,https://aclanthology.org/D18-1076/
-TopicalChat,BEGIN,grounded text generation,https://doi.org/10.21437/Interspeech.2019-3079
+Wizard of Wikipedia,"BEGIN, AttributionBench",grounded text generation,https://openreview.net/forum?id=r1l73iRqKm
+CMU-DoG,"BEGIN, AttributionBench",grounded text generation,https://aclanthology.org/D18-1076/
+TopicalChat,"BEGIN, AttributionBench",grounded text generation,https://doi.org/10.21437/Interspeech.2019-3079
 AttrEval-Simulation,,question answering,https://aclanthology.org/2023.findings-emnlp.307/
 AttrEval-GenSearch,AttributionBench,question answering,https://aclanthology.org/2023.findings-emnlp.307/
-ASQA,"ALCE, TRUST-ALIGN, RAG-RewardBench",question answering,https://aclanthology.org/2022.emnlp-main.566/
-QAMPARI,"ALCE, TRUST-ALIGN",question answering,https://aclanthology.org/2023.gem-1.9/
+ASQA,"ALCE, Trust-Align, RAG-RewardBench",question answering,https://aclanthology.org/2022.emnlp-main.566/
+QAMPARI,"ALCE, Trust-Align",question answering,https://aclanthology.org/2023.gem-1.9/
 Slobodkin-MDS,,summarization,https://aclanthology.org/2024.acl-long.18/
 Liu-LFQA,,question answering,https://aclanthology.org/2024.acl-long.182/
 ExpertQA,"AttributionBench, RAG-RewardBench",question answering,https://aclanthology.org/2024.naacl-long.167/
 MuSiQue-Attribute,,question answering,https://aclanthology.org/2024.acl-long.135/
 2WikiMultiHopQA,,question answering,https://aclanthology.org/2020.coling-main.580/
 HotpotQA,"MultiAttr, RAG-RewardBench",question answering,https://aclanthology.org/D18-1259/
-WikiBio GPT-3,,"hallucination detection, biography generation",https://aclanthology.org/2023.emnlp-main.557/
-FELM,,hallucination detection,https://proceedings.neurips.cc/paper_files/paper/2023/file/8b8a7960d343e023a6a0afe37eee6022-Paper-Datasets_and_Benchmarks.pdf
-HaluEval,,hallucination detection,https://aclanthology.org/2023.emnlp-main.397/
-WikiRetr-GPT3,,claim-source retrieval,https://aclanthology.org/2024.acl-long.79/
-WikiRetr-GPT4,,claim-source retrieval,https://aclanthology.org/2024.acl-long.79/
+WikiBio GPT-3,,"fact verification, grounded text generation",https://aclanthology.org/2023.emnlp-main.557/
+FELM,,fact verification,https://proceedings.neurips.cc/paper_files/paper/2023/file/8b8a7960d343e023a6a0afe37eee6022-Paper-Datasets_and_Benchmarks.pdf
+HaluEval,,fact verification,https://aclanthology.org/2023.emnlp-main.397/
+WikiRetr-GPT3,,evidence retrieval,https://aclanthology.org/2024.acl-long.79/
+WikiRetr-GPT4,,evidence retrieval,https://aclanthology.org/2024.acl-long.79/
 WebCiteS,,"question answering, summarization",https://aclanthology.org/2024.acl-long.806/
-BIO,,fact verification,https://aclanthology.org/2023.emnlp-main.741/
+Min-Biography,,fact verification,https://aclanthology.org/2023.emnlp-main.741/
 HAGRID,AttributionBench,question answering,https://arxiv.org/abs/2307.16883
 AQuAMuSe,,summarization,https://arxiv.org/abs/2010.12694
 Sahinuç-ACLRelWork,,citation text generation,https://aclanthology.org/2024.acl-long.265
@@ -39,18 +39,18 @@ NaturalQuestions,"LAB, MultiAttr, RAG-RewardBench",question answering,https://ac
 GenSearch-Verifiability,AttributionBench,question answering,https://aclanthology.org/2023.findings-emnlp.467/
 Hashemi-Real,,grounded text generation,https://aclanthology.org/2024.acl-long.745/
 Hashemi-Synthetic,,grounded text generation,https://aclanthology.org/2024.acl-long.745/
-AmbigQA-Cite,,question answering ,https://aclanthology.org/2024.emnlp-main.956/
-DisentQA-DupliCite,,question answering ,https://aclanthology.org/2024.emnlp-main.956/
+AmbigQA-Cite,,question answering,https://aclanthology.org/2024.emnlp-main.956/
+DisentQA-DupliCite,,question answering,https://aclanthology.org/2024.emnlp-main.956/
 DisentQA-ParaCite,,question answering,https://aclanthology.org/2024.emnlp-main.956/
-Conflicting HotPotQA-Cite,,question asnwering,https://aclanthology.org/2024.emnlp-main.956/
+Conflicting HotPotQA-Cite,,question answering,https://aclanthology.org/2024.emnlp-main.956/
 SummHay,,summarization,https://aclanthology.org/2024.emnlp-main.552/
 Evidence Inference,LAB,evidence classification,https://aclanthology.org/2020.bionlp-1.13/
 Wice,LAB,fact verification,https://aclanthology.org/2023.emnlp-main.470/
 ContractNL,LAB,evidence classification,https://aclanthology.org/2021.findings-emnlp.164/
 GovReport,LAB,"summarization, question answering",https://aclanthology.org/2021.naacl-main.112/
 Wish-QA ELI5/ASQA,,question answering,https://openreview.net/forum?id=RjYKTQ0L0W&noteId=2Fsx5TMEu4
-AmbigBio,,biography generation,https://aclanthology.org/2024.findings-acl.160/
-BioKaLMA,,biography generation,https://aclanthology.org/2024.findings-acl.28/
+AmbigBio,,grounded text generation,https://aclanthology.org/2024.findings-acl.160/
+BioKaLMA,,grounded text generation,https://aclanthology.org/2024.findings-acl.28/
 EVIGSE,,fine-tuning,https://aclanthology.org/2023.findings-emnlp.467/
 TottoQA,TabCite,question answering,https://aclanthology.org/2020.emnlp-main.89/
 FetaQA,TabCite,question answering,https://aclanthology.org/2022.tacl-1.3/
@@ -59,58 +59,57 @@ MISeD,,grounded text generation,https://aclanthology.org/2024.findings-emnlp.106
 Tahaei-MS-MARCO,,question answering,https://aclanthology.org/2024.findings-naacl.277/
 MIRACL,,question answering,https://aclanthology.org/2023.tacl-1.63/
 SciFact,ScholarQABench,question answering,https://aclanthology.org/2024.findings-acl.920/
-BEGIN,AttributionBench,grounded text generation,https://aclanthology.org/2022.tacl-1.62/
 AttributedQA,AttributionBench,question answering,https://arxiv.org/abs/2212.08037
 Chen-LFQA,AttributionBench,question answering,https://arxiv.org/abs/2310.12150
 QuoteSum,,question answering,https://aclanthology.org/2024.naacl-long.74.pdf
 Verifiability-granular,,question answering,https://aclanthology.org/2024.findings-acl.682.pdf
 MS MARCO,,question answering,https://openreview.net/pdf?id=Hk1iOLcle
-Byun-Citation-Recommendation,,"citation recommendation, related work generation, grounded text generation",https://aclanthology.org/2024.hcinlp-1.3/
+Byun-CR,,"citation recommendation, related work generation, grounded text generation",https://aclanthology.org/2024.hcinlp-1.3/
 STRoGeNS-arXiv22,,related work generation,https://aclanthology.org/2024.sdp-1.5/
 STRoGeNS-conf22,,related work generation,https://aclanthology.org/2024.sdp-1.5/
 STRoGeNS-conf23,,related work generation,https://aclanthology.org/2024.sdp-1.5/
-SciDuet,,document-to-slide generation,https://aclanthology.org/2021.naacl-main.111/
+SciDuet,,grounded text generation,https://aclanthology.org/2021.naacl-main.111/
 DutchAttrLegalQA,,question answering,https://aclanthology.org/2024.nllp-1.12/
 Gu-CCSG,,citation text generation,https://aclanthology.org/2024.sdp-1.4/
 Enterprise,,question answering,https://aclanthology.org/2024.naacl-long.346/
 PolitiCite,,question answering,https://aclanthology.org/2024.naacl-long.216/
-WikiGenBench,,multi-document synthesis,https://aclanthology.org/2025.coling-main.349/
-GSM8K,,math problem solving,https://arxiv.org/abs/2110.14168
-GSM-Plus,,math problem solving,https://aclanthology.org/2024.acl-long.163/
-SVAMP,,math problem solving,https://aclanthology.org/2021.naacl-main.168/
-ASDiv,,math problem solving,https://aclanthology.org/2020.acl-main.92/
-MultiArith,,math problem solving,https://aclanthology.org/D15-1202/
-SingleEQ,,math problem solving,https://aclanthology.org/Q15-1042/
-Logical Deduction,,math problem solving,https://openreview.net/forum?id=uyTL5Bvosj
-Date Understanding,,math problem solving,https://openreview.net/forum?id=uyTL5Bvosj
-FEVER,,fact-checking,https://aclanthology.org/N18-1074/
+WikiGenBench,,grounded text generation,https://aclanthology.org/2025.coling-main.349/
+GSM8K,,question answering,https://arxiv.org/abs/2110.14168
+GSM-Plus,,question answering,https://aclanthology.org/2024.acl-long.163/
+SVAMP,,question answering,https://aclanthology.org/2021.naacl-main.168/
+ASDiv,,question answering,https://aclanthology.org/2020.acl-main.92/
+MultiArith,,question answering,https://aclanthology.org/D15-1202/
+SingleEQ,,question answering,https://aclanthology.org/Q15-1042/
+Logical Deduction,,question answering,https://openreview.net/forum?id=uyTL5Bvosj
+Date Understanding,,question answering,https://openreview.net/forum?id=uyTL5Bvosj
+FEVER,,fact verification,https://aclanthology.org/N18-1074/
 SQuAD1.1,,question answering,https://aclanthology.org/D16-1264/
 Li-Citation-Graph,,related work generation,https://aclanthology.org/2025.coling-main.73/
 Vassos-GreekPartyPrograms,,question answering,https://dl.acm.org/doi/10.1145/3688671.3688784
-S2ORC,,"literature retrieval, citation text generation",https://aclanthology.org/2020.acl-main.447/
+S2ORC,,"evidence retrieval, citation text generation",https://aclanthology.org/2020.acl-main.447/
 Wiki-VISA,,question answering,https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00276/43518/Natural-Questions-A-Benchmark-for-Question
-Paper-VISA,,document layout analysis,https://ieeexplore.ieee.org/document/8977963
+Paper-VISA,,question answering,https://ieeexplore.ieee.org/document/8977963
 FineWeb-VISA,,pretraining,https://arxiv.org/abs/2406.17557
 CNN DailyMail,,summarization,https://aclanthology.org/K16-1028/
 TyDi QA,,question answering,https://aclanthology.org/2020.tacl-1.30/
-Shetty-Risk-Summarization,,report generation,https://dl.acm.org/doi/10.1145/3677052.3698669
-Visual Riddles,,visual question answering,https://neurips.cc//virtual/2024/poster/97561
-WikiText-103,,text completion,https://openreview.net/forum?id=Byj72udxe
+Shetty-Risk-Summarization,,summarization,https://dl.acm.org/doi/10.1145/3677052.3698669
+Visual Riddles,,question answering,https://neurips.cc//virtual/2024/poster/97561
+WikiText-103,,"text completion, pretraining",https://openreview.net/forum?id=Byj72udxe
 Pile of Law,,text completion,https://openreview.net/forum?id=3HCT3xfNm9r
 TriviaQA,RAG-RewardBench,question answering,https://aclanthology.org/P17-1147/
 MedMCQA,,question answering,https://proceedings.mlr.press/v174/pal22a.html
 TruthfulQA,,question answering,https://aclanthology.org/2022.acl-long.229/
 C4,,pretraining,https://arxiv.org/abs/1910.10683
 T-REx,,training data attribution,https://aclanthology.org/L18-1544/
-GPT-4 Alpaca,,instruction following,https://arxiv.org/abs/2304.03277
-Stanford Alpaca,,instruction following,https://github.com/tatsu-lab/stanford_alpaca
-FLAN-V2,,instruction following,https://dl.acm.org/doi/10.5555/3618408.3619349
-ShareGPT,,instruction following,https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered/tree/main/HTML_cleaned_raw_dataset
-Open Assistant 1,,instruction following,https://dl.acm.org/doi/10.5555/3666122.3668186
+GPT-4 Alpaca,,fine-tuning,https://arxiv.org/abs/2304.03277
+Stanford Alpaca,,fine-tuning,https://github.com/tatsu-lab/stanford_alpaca
+FLAN-V2,,fine-tuning,https://dl.acm.org/doi/10.5555/3618408.3619349
+ShareGPT,,fine-tuning,https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered/tree/main/HTML_cleaned_raw_dataset
+Open Assistant 1,,fine-tuning,https://dl.acm.org/doi/10.5555/3666122.3668186
 OpenBookQA,,question answering,https://aclanthology.org/D18-1260/
 Arc-Easy,,question answering,https://arxiv.org/pdf/1803.05457
 ARC-C,,question answering,https://arxiv.org/pdf/1803.05457
-PubHealth,,fact-checking,https://aclanthology.org/2020.emnlp-main.623/
+PubHealth,,fact verification,https://aclanthology.org/2020.emnlp-main.623/
 PopQA,RAG-RewardBench,question answering,https://aclanthology.org/2023.acl-long.546/
 MCG-S2ORC,,citation text generation,http://link.springer.com/chapter/10.1007/978-3-031-49601-1_6
 QMUL-VLE,,question answering,https://ieeexplore.ieee.org/document/10628100
@@ -159,18 +158,18 @@ DISC-LawLLM,CitaLaw,question answering,https://github.com/FudanDISC/DISC-LawLLM
 LawGPT_zh,CitaLaw,question answering,https://github.com/LiuHC0428/LAW-GPT
 HanFei,CitaLaw,question answering,https://github.com/siat-nlp/HanFei
 Multi-XScience,,summarization,https://aclanthology.org/2020.emnlp-main.648/
-RollingEval,,literature review generation,https://arxiv.org/pdf/2412.15249
-Xue-Finance,,claim-source retrieval,https://arxiv.org/abs/2308.05361
+RollingEval,,related work generation,https://arxiv.org/pdf/2412.15249
+Xue-Finance,,evidence retrieval,https://arxiv.org/abs/2308.05361
 Xue-Finance-QA,,question answering,https://arxiv.org/abs/2308.05361
-Xue-Finance-QP,,claim-source retrieval,https://arxiv.org/abs/2308.05361
+Xue-Finance-QP,,evidence retrieval,https://arxiv.org/abs/2308.05361
 Soybean,,question answering,https://arxiv.org/abs/2412.15235
 Wheat,,question answering,https://arxiv.org/abs/2412.15235
 Multi-Hop RAG News,,question answering,https://arxiv.org/abs/2401.15391
-Clement-ArXiv,,source attribution,https://arxiv.org/abs/1905.00075
-BookSum,,source attribution,https://aclanthology.org/2022.findings-emnlp.488/
-DBpedia14,,source attribution,https://dl.acm.org/doi/10.5555/2969239.2969312
-CC-News,,source attribution,https://www.doi.org/10.5281/zenodo.4120316
-IMDB62,,source attribution,https://aclanthology.org/J14-2003/
+Clement-ArXiv,,grounded text generation,https://arxiv.org/abs/1905.00075
+BookSum,,grounded text generation,https://aclanthology.org/2022.findings-emnlp.488/
+DBpedia14,,grounded text generation,https://dl.acm.org/doi/10.5555/2969239.2969312
+CC-News,,grounded text generation,https://www.doi.org/10.5281/zenodo.4120316
+IMDB62,,grounded text generation,https://aclanthology.org/J14-2003/
 CAQA,,question answering,https://arxiv.org/abs/2401.14640
 Lee-Disaster-News,,fine-tuning,https://arxiv.org/abs/2404.01361
 Wealth-Alpace-Lora,,question answering,https://huggingface.co/datasets/gbharti/wealth-alpaca_lora
@@ -179,37 +178,36 @@ Magesh-LegalQA,,question answering,https://arxiv.org/abs/2405.20362
 Lost-in-the-middle,,question answering,https://aclanthology.org/2024.acl-long.736/
 FLenQA,,question answering,https://aclanthology.org/2024.acl-long.818/
 MuSiQue,RAG-RewardBench,question answering,https://aclanthology.org/2022.tacl-1.31/
-Xing-PolitiHop,,fact-checking,https://arxiv.org/abs/2406.12645
-Dani-Semio2Brain,,diagnostic reasoning,https://arxiv.org/pdf/2407.03004
+Xing-PolitiHop,,fact verification,https://arxiv.org/abs/2406.12645
+Dani-Semio2Brain,,grounded text generation,https://arxiv.org/pdf/2407.03004
 Xia-WebGLM-QA,,question answering,https://arxiv.org/pdf/2407.01796
-AttackER,,cyberattack attribution,https://doi.org/10.1007/978-981-96-0576-7_20
-Zhang-Citation-Graph-Medicine,,"related work generation, title generation, abstract completion, paper recommendation, citation link prediction, citation sentence generation",https://arxiv.org/abs/2409.12177
-Zhang-Citation-Graph-Computer-Science,,"related work generation, title generation, abstract completion, paper recommendation, citation link prediction, citation sentence generation",https://arxiv.org/abs/2409.12177
-Zhang-Citation-Graph-Physics,,"related work generation, title generation, abstract completion, paper recommendation, citation link prediction, citation sentence generation",https://arxiv.org/abs/2409.12177
+AttackER,,question answering,https://doi.org/10.1007/978-981-96-0576-7_20
+Zhang-Citation-Graph-Medicine,,"related work generation, title generation, summarization, citation recommendation, citation link prediction, citation text generation",https://arxiv.org/abs/2409.12177
+Zhang-Citation-Graph-Computer-Science,,"related work generation, title generation, summarization, citation recommendation, citation link prediction, citation text generation",https://arxiv.org/abs/2409.12177
+Zhang-Citation-Graph-Physics,,"related work generation, title generation, summarization, citation recommendation, citation link prediction, citation text generation",https://arxiv.org/abs/2409.12177
 LongBench-Cite,,question answering,https://arxiv.org/abs/2409.02897
 MultifieldQA,RAG-RewardBench,question answering,https://aclanthology.org/2024.acl-long.172/
 Dureader,,question answering,https://aclanthology.org/W18-2605/
 LongCite-45k,,fine-tuning,https://arxiv.org/abs/2409.02897
 Jung-Medical,,question answering,https://arxiv.org/abs/2409.15326
-Gilson-Health,,information retrieval,https://arxiv.org/abs/2409.13902
+Gilson-Health,,evidence retrieval,https://arxiv.org/abs/2409.13902
 Mintaka,,question answering,https://aclanthology.org/2022.coling-1.138/
-BioASQ,RAG-RewardBench,biomedical QA,https://aclanthology.org/W18-5304.pdf
-FreshQA,RAG-RewardBench,time-sensitive QA,https://arxiv.org/html/2504.13816v1
-ELIS,RAG-RewardBench,fine-grained citation,https://www.researchgate.net/publication/330939723_Elis_An_Open_Platform_for_Mobile_Energy_Efficiency_Services_in_Buildings
-RobustQA-Science,RAG-RewardBench,fine-grained citation,https://aclanthology.org/2023.findings-acl.263/
-RobustQA-Technology,RAG-RewardBench,fine-grained citation,https://aclanthology.org/2023.findings-acl.263/
-XStest,RAG-RewardBench,harmfulness,https://aclanthology.org/2024.naacl-long.301.pdf
-Privacy Dataset,RAG-RewardBench,harmfulness,https://aclanthology.org/2024.findings-acl.267/
-CRAG,RAG-RewardBench,appropriate abstain,https://openreview.net/forum?id=Q7lAqY41HH&referrer=%5Bthe%20profile%20of%20Wen-tau%20Yih%5D(%2Fprofile%3Fid%3D~Wen-tau_Yih1)
-BioGen2024-PubMed,,information retrieval,https://catalog.data.gov/dataset/medline-pubmed-citations-d2ed0
+BioASQ,RAG-RewardBench,question answering,https://aclanthology.org/W18-5304.pdf
+FreshQA,RAG-RewardBench,question answering,https://arxiv.org/html/2504.13816v1
+RobustQA-Science,RAG-RewardBench,question answering,https://aclanthology.org/2023.findings-acl.263/
+RobustQA-Technology,RAG-RewardBench,question answering,https://aclanthology.org/2023.findings-acl.263/
+XStest,RAG-RewardBench,question answering,https://aclanthology.org/2024.naacl-long.301.pdf
+Privacy Dataset,RAG-RewardBench,question answering,https://aclanthology.org/2024.findings-acl.267/
+CRAG,RAG-RewardBench,question answering,https://openreview.net/forum?id=Q7lAqY41HH&referrer=%5Bthe%20profile%20of%20Wen-tau%20Yih%5D(%2Fprofile%3Fid%3D~Wen-tau_Yih1)
+BioGen2024-PubMed,,evidence retrieval,https://catalog.data.gov/dataset/medline-pubmed-citations-d2ed0
 BioGen2024-Topics,,question answering,https://arxiv.org/pdf/2411.18069
 QASA,ScholarQABench,question answering,https://proceedings.mlr.press/v202/lee23n.html
 ScholarQA-CS,ScholarQABench,question answering,https://arxiv.org/abs/2411.14199
 ScholarQA-Bio,ScholarQABench,question answering,https://arxiv.org/abs/2411.14199
 ScholarQA-Neuro,ScholarQABench,question answering,https://arxiv.org/abs/2411.14199
 ScholarQA-Multi,ScholarQABench,question answering,https://arxiv.org/abs/2411.14199
-AdvBench,,harmful behavior generation,https://huggingface.co/datasets/walledai/AdvBench
-HEx-PHI,,harmful behavior generation,https://huggingface.co/datasets/LLM-Tuning-Safety/HEx-PHI
+AdvBench,,jailbreak attack,https://huggingface.co/datasets/walledai/AdvBench
+HEx-PHI,,jailbreak attack,https://huggingface.co/datasets/LLM-Tuning-Safety/HEx-PHI
 Craig-Scientific-QA,,question answering,https://doi.org/10.1109/BIBM62325.2024.10821725
 Xiao-Quotation,,quotation generation,https://arxiv.org/abs/2411.03675
 Soman-Train,,fine-tuning,https://arxiv.org/abs/2411.02657
@@ -217,7 +215,7 @@ Soman-Test,,question answering,https://arxiv.org/abs/2411.02657
 REC-Data,,fine-tuning,https://arxiv.org/abs/2411.02448
 ABCD,,summarization,https://aclanthology.org/2021.naacl-main.239/
 LLM-AggreFact,,summarization,https://aclanthology.org/2024.emnlp-main.499/
-CoBBLEr,,claim verification,https://aclanthology.org/2024.findings-acl.29/
+CoBBLEr,,fact verification,https://aclanthology.org/2024.findings-acl.29/
 CORAL,,question answering,https://arxiv.org/abs/2410.23090
 ConfQuestions,,question answering,https://arxiv.org/abs/2412.10571
 Eta3G,,question answering,https://aclanthology.org/Q19-1026/
