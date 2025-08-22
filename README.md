@@ -1,6 +1,6 @@
-# Attribute, Cite, or Quote? A Survey on Evidence-based Text Generation with Large Language Models
+# Attribution, Citation, and Quotation? A Survey of Evidence-based Text Generation with Large Language Models
 
-This repository contains the annotated data for our survey on evidence-based text-generation with LLMs.
+This repository contains the annotated data for our survey of evidence-based text-generation with LLMs.
 
 ## Contents
 - [Abstract](#abstract)
@@ -10,7 +10,7 @@ This repository contains the annotated data for our survey on evidence-based tex
 
 
 ## Abstract
-The increasing adoption of LLMs has been accompanied by growing concerns regarding their reliability and trustworthiness. As a result, a growing body of research focuses on evidence-based text generation with LLMs, aiming to link model outputs to supporting evidence to ensure traceability and verifiability. However, the field is fragmented due to inconsistent terminology, isolated evaluation practices, and a lack of unified benchmarks. To bridge this gap, we systematically analyze 134 papers, introduce a unified taxonomy of evidence-based text generation with LLMs, and investigate 300 evaluation metrics across seven key dimensions. Thereby, we focus on approaches that use citations, attribution, or quotations for evidence-based text generation. Building on this, we examine the distinctive characteristics and representative methods in the field. Finally, we highlight open challenges and outline promising directions for future work.
+The increasing adoption of large language models (LLMs) has been accompanied by growing concerns regarding their reliability and trustworthiness. As a result, a growing body of research focuses on evidence-based text generation with LLMs, aiming to link model outputs to supporting evidence to ensure traceability and verifiability. However, the field is fragmented due to inconsistent terminology, isolated evaluation practices, and a lack of unified benchmarks. To bridge this gap, we systematically analyze 134 papers, introduce a unified taxonomy of evidence-based text generation with LLMs, and investigate 300 evaluation metrics across seven key dimensions. Thereby, we focus on approaches that use citations, attribution, or quotations for evidence-based text generation. Building on this, we examine the distinctive characteristics and representative methods in the field. Finally, we highlight open challenges and outline promising directions for future work.
 
 
 ## Methodology
