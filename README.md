@@ -1,4 +1,4 @@
-# Attribution, Citation, and Quotation? A Survey of Evidence-based Text Generation with Large Language Models
+# Attribution, Citation, and Quotation: A Survey of Evidence-based Text Generation with Large Language Models
 
 This repository contains the annotated data for our survey of evidence-based text-generation with LLMs.
 
