@@ -37,8 +37,8 @@ WebQuestions,,question answering,https://aclanthology.org/D13-1160/
 QASPER,LAB,question answering,https://aclanthology.org/2021.naacl-main.365
 NaturalQuestions,"LAB, MultiAttr, RAG-RewardBench",question answering,https://aclanthology.org/Q19-1026/
 GenSearch-Verifiability,AttributionBench,question answering,https://aclanthology.org/2023.findings-emnlp.467/
-Hashemi-Real,,grounded text generation,https://aclanthology.org/2024.acl-long.745/
-Hashemi-Synthetic,,grounded text generation,https://aclanthology.org/2024.acl-long.745/
+LLMRubric-Real,,grounded text generation,https://aclanthology.org/2024.acl-long.745/
+LLMRubric-Synthetic,,grounded text generation,https://aclanthology.org/2024.acl-long.745/
 AmbigQA-Cite,,question answering,https://aclanthology.org/2024.emnlp-main.956/
 DisentQA-DupliCite,,question answering,https://aclanthology.org/2024.emnlp-main.956/
 DisentQA-ParaCite,,question answering,https://aclanthology.org/2024.emnlp-main.956/
