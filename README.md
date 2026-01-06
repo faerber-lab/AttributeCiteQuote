@@ -6,6 +6,8 @@ This repository contains the annotated data for our survey of evidence-based tex
 - [Abstract](#abstract)
 - [Methodology](#methodology)
 - [Datasets](#datasets)
+- [Taxonomy](#taxonomy)
+- [Evaluation](#evaluation)
 - [License](#license)
 
 
@@ -19,6 +21,11 @@ investigate 300 evaluation metrics across seven key dimensions. Thereby, we focu
 attribution, or quotations for evidence-based text generation. Building on this, we examine the distinctive 
 characteristics and representative methods in the field. Finally, we highlight open challenges and outline promising 
 directions for future work.
+
+![Overview of evidence-based text generation](figures/overview.png)
+
+***Figure 1.** Illustration of evidence-based text generation with LLMs with various citation modalities and styles.*
+
 
 ## Methodology
 We identified targeted keywords to guide the literature search on evidence-based text generation. To stay focused on the 
@@ -71,7 +78,9 @@ dimension if needed.
 
 
 ## Datasets
-As a result we have three Datasets which can be mapped:
+Our annotation results are organized into three datasets: publications.csv, evaluation.csv, and dataset.csv. The latter 
+two can be mapped to publications.csv to provide additional information about the datasets and evaluation metrics used 
+in each study.
 
 **publications.csv** This dataset contains all publication metadata and the categorization of each paper:
 
@@ -125,6 +134,46 @@ As a result we have three Datasets which can be mapped:
 | Dataset task | Task(s) the dataset is designed for            | /      |
 | Source       | URL to the dataset or the paper introducing it | /      |
 
+## Taxonomy
+
+![Multidimensional taxonomy of evidence-based text generation with LLMs](figures/taxonomy.png)
+
+***Figure 2.** Multidimensional taxonomy of evidence-based text generation with LLMs. The taxonomy categorizes papers 
+along three independent dimensions: attribution approach, citation characteristics, and task, which together capture the 
+core design choices of evidence-based text generation.*
+
+Figure 2 presents the multidimensional taxonomy we developed to characterize evidence-based text generation with LLMs, 
+based on a facetted classification approach. In a facetted design, independent conceptual dimensions describe different 
+aspects of the study, enabling flexible representation of complex systems without enforcing artificial mutual 
+exclusivity. Such an approach is well suited for evidence-based text generation with LLMs, where methods often combine 
+multiple mechanisms and cannot be captured adequately by a single hierarchical structure. Our taxonomy consists of three 
+dimensions that together characterize papers on evidence-based text generation with LLMs: (1) attribution approach, (2) 
+citation characteristics, and (3) task. These dimensions represent distinct analytical perspectives on system design 
+choices. Since real-world approaches frequently combine mechanisms, the taxonomy allows multi-label assignments within a 
+dimension, while each dimension captures a separate facet of the system.
+
+**How to classify papers with the multidimensional taxonomy?**
+Each study on evidence-based text generation with LLMs is classified across all subdimensions, starting with the 
+parametric attribution approaches. A study may be labeled “no” for a given subdimension if it does not apply, for 
+example when no parametric attribution approach is used.
+The taxonomy is designed to support multi-label classification, allowing a single system to capture multiple approaches 
+and by assigning both parametric and non-parametric attribution where applicable. Using the same classification scheme, 
+citation characteristics and tasks are annotated accordingly.
+The taxonomy can be interpreted as a left-to-right path across all subdimensions, with each path capturing the key 
+characteristics of a study on evidence-based text generation with LLMs.
+
+## Evaluation
+
+![Frequently reused evaluation metrics and frameworks for evidence-based text generation](figures/evaluation.png)
+
+***Figure 3.** Frequently reused evaluation metrics and frameworks for evidence-based text generation. Numbers in 
+parentheses indicate how many studies used each metric. Metrics grouped by dashed lines represent complementary metrics, 
+recommended being used together.*
+
+Further we provide an overview of evaluation approaches for evidence-based text generation with LLMs. In total, we 
+identified 300 distinct metrics, each targeting different aspects. Figure 3 offers structured overview of frequently 
+reused metrics categorized by evaluation method and evaluation dimension. We define reused resources as those employed 
+at least twice among surveyed studies.
 
 ## License
 [License](LICENSE)
