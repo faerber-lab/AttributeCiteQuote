@@ -10,8 +10,15 @@ This repository contains the annotated data for our survey of evidence-based tex
 
 
 ## Abstract
-The increasing adoption of large language models (LLMs) has raised serious concerns about their reliability and trustworthiness. As a result, a growing body of research focuses on evidence-based text generation with LLMs, aiming to link model outputs to supporting evidence to ensure traceability and verifiability. However, the field is fragmented due to inconsistent terminology, isolated evaluation practices, and a lack of unified benchmarks. To bridge this gap, we systematically analyze 134 papers, introduce a unified taxonomy of evidence-based text generation with LLMs, and investigate 300 evaluation metrics across seven key dimensions. Thereby, we focus on approaches that use citations, attribution, or quotations for evidence-based text generation. Building on this, we examine the distinctive characteristics and representative methods in the field. Finally, we highlight open challenges and outline promising directions for future work.
-
+The increasing adoption of large language models (LLMs) has raised serious concerns about their reliability and 
+trustworthiness. As a result, a growing body of research focuses on evidence-based text generation with LLMs, aiming to 
+link model outputs to supporting evidence to ensure traceability and verifiability. However, the field is fragmented 
+due to inconsistent terminology, isolated evaluation practices, and a lack of unified benchmarks. To bridge this gap, 
+we systematically analyze 134 papers, introduce a unified taxonomy of evidence-based text generation with LLMs, and 
+investigate 300 evaluation metrics across seven key dimensions. Thereby, we focus on approaches that use citations, 
+attribution, or quotations for evidence-based text generation. Building on this, we examine the distinctive 
+characteristics and representative methods in the field. Finally, we highlight open challenges and outline promising 
+directions for future work.
 
 ## Methodology
 We identified targeted keywords to guide the literature search on evidence-based text generation. To stay focused on the 
@@ -67,44 +74,56 @@ dimension if needed.
 As a result we have three Datasets which can be mapped:
 
 **publications.csv** This dataset contains all publication metadata and the categorization of each paper:
-- Title: Paper tile
-- Abstract: Paper abstract
-- Year: Year of publication
-- Url: Url to access paper
-- Authors: Authors of the paper
-- Annotator: Anonymized annotator how categorized the paper
-- Contribution Type: approach, application, resource, evaluation, survey, or position
-- Citation term: Term used to describe concept of integrating evidence: attribution, citation, or quote
-- Task name: Name used in paper to describe evidence-based text generation: e.g. citation generation, attributed text generation
-- Citation modality: Modality of content which is cited: texts, graphs, tables, or visuals
-- Evidence level: Level of granularity of citation: document, paragraph, sentence, token, triple, table, table cell, image, bounding box
-- Citation style: How are references to the underlying evidence presented to the user: in-line citation, citation report, passage, narrative citations, highlight gradient, quote
-- Citation visibility: Are citations visible to user: finale response, intermediate text
-- Citation frequency: How many citations per claim are provided: single, multiple
-- Multilinguality: Are the authors using multilingual data: yes, or no
-- Parametric: Do the authors use a parametric attribution approach: no, pure llm, data-centric, model-centric
-- Non-parametric: Do the authors use a non-parametric attribution approach: no, post-retrieval, post-generation, in-context, in-generation
-- Prompting: Which prompting strategies are used: zero-shot, few-shot, chain-of-thought, chain-of-citation, chain-of-quote, conflict-aware, active-oriented, role play, self-consistency
-- Pre-training: Does the approach require to pre-train an LLM: yes, or no
-- Fine-tuning: Does the approach fine-tune an LLM: no, supervised fine-tuning, self-supervised fine-tuning, reinforcement learning
-- Task: Overall task of the paper: e.g. question answering, summarization, grounded text generation, citation text generation, etc.
-- Dataset: Extraction of all datasets or benchmarks used (can be mapped with datasets.csv) -> If a paper uses a complete benchmark, we only annotate the benchmark instead of the individual datasets
-- Evaluation: Extraction of all metrics or frameworks used (can be mapped with evaluation.csv) -> If a paper uses a complete framework, we only annotate the framework instead of the individual metrics
 
-**evaluation.csv** This dataset contains all metrics and frameworks extracted from publications.csv (Mapping with columns "metric abbreviation" and "framework"):
-- Metrik name: Long name of the metric
-- Metric abbreviation: Short name of the metric
-- Framework: If metric is part of a framework, the framework is listed here
-- Evaluation Method: Methodology of evaluation metric: e.g. human evaluation, inference-based, lexical overlap, llm-as-a-judge, retrieval-based semantic similarity-based
-- Evaluation Dimension: What is evaluated: e.g. attribution, citation, correctness, linguistic quality, preservation, relevance, retrieval
-- Description: Short description of metric (extracted from paper if available)
-- Source: URL of paper, which describes the metric
+| Column              | Description                                                                                       | Labels                                                                                                                                     |
+|---------------------|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| Title               | Title of the paper                                                                                | /                                                                                                                                          |
+| Abstract            | Abstract of the paper                                                                             | /                                                                                                                                          |
+| Authors             | Authors of the paper                                                                              | /                                                                                                                                          |
+| Date                | The earliest publication date, including preprints                                                | YYYY-MM (e.g. 2024-03)                                                                                                                     |
+| Venue               | The conference, journal, or preprint server where the paper was published                         | /                                                                                                                                          |
+| Publisher           | The publisher of the conference or journal                                                        | /                                                                                                                                          |
+| Url                 | URL to access the paper                                                                           | /                                                                                                                                          |
+| Contribution Type   | The type of contribution made by the paper                                                        | approach, application, resource, evaluation, survey, position                                                                              |
+| Annotator           | Anonymized annotator who categorized the paper                                                    | A, B                                                                                                                                       |
+| Parametric          | Type of parametric attribution approach used                                                      | pure LLM, data-centric, model-centric, no                                                                                                  |
+| Non-parametric      | Type of non-parametric attribution approach used                                                  | post-retrieval, post-generation, in-context, in-generation, no                                                                             |
+| Citation modality   | Modality of the cited content                                                                     | texts, graphs, tables, visuals, no                                                                                                         |
+| Evidence level      | Granularity level of citation                                                                     | document, paragraph, sentence, token, triple, table, table cell, image, bounding box, no                                                   |
+| Citation style      | How references to evidence are presented to the user                                              | in-line citation, citation report, passage, narrative citations, highlight gradient, quote, no                                             |
+| Citation visibility | Whether citations are visible to the user                                                         | final response, intermediate text, no                                                                                                      |
+| Citation frequency  | Number of citations provided per claim                                                            | single, multiple, no                                                                                                                       |
+| Task                | Overall task(s) addressed by the paper                                                            | question answering, grounded text generation, summarization, citation text generation, related work generation, fact verification, usw.    |
+| Training            | Whether the approach uses training strategies, including pretraining and fine-tuning              | pretraining, supervised fine-tuning, self-supervised fine-tuning, reinforcement learning, no                                               |
+| Prompting           | Prompting strategies used by the approach                                                         | zero-shot, few-shot, chain-of-thought, chain-of-citation, chain-of-quote, conflict-aware, active-oriented, role play, self-consistency, no |
+| Dataset             | Datasets used by the paper. Can be mapped to datasets.csv using column "dataset"                  | /                                                                                                                                          |
+| Benchmark           | Benchmarks used by the paper. Can be mapped to datasets.csv using column "benchmark"              | /                                                                                                                                          |
+| Metric              | Evaluation metrics used by the paper. Can be mapped to evaluation.csv using column "metric"       | /                                                                                                                                          |
+| Framework           | Evaluation frameworks used by the paper. Can be mapped to evaluation.csv using column "framework" | /                                                                                                                                          |
+| Multilinguality     | Does the paper use multilingual data                                                              | yes, no                                                                                                                                    |
+| Task name           | Name used in the paper to describe evidence-based text generation                                 | /                                                                                                                                          |
+| Citation term       | Term used to describe the concept of integrating evidence                                         | attribution, citation, quote                                                                                                               |
 
-**datasets.csv** This dataset contains all datasets and benchmarks extracted from publications.csv (Mapping with columns "dataset" and "benchmark"):
-- Dataset: Name of dataset
-- Benchmark: If dataset is part of a benchmark, the benchmark is listed here
-- Dataset task: Task the dataset can be used for: e.g. question answering, summarization, etc.
-- Source: URL to dataset or paper introducing the dataset
+**evaluation.csv** This dataset contains all metrics and frameworks extracted from publications.csv:
+
+| Column               | Description                                                   | Labels                                                                                                         |
+| -------------------- |---------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| Metric name          | Abbreviation of the evaluation metric                         | /                                                                                                              |
+| Metric abbreviation  | Long name or acronym of the metric                            | /                                                                                                              |
+| Framework            | Evaluation framework the metric belongs to                    | /                                                                                                              |
+| Evaluation Method    | Evaluation method used by the metric                          | human evaluation, inference-based, lexical overlap, LLM-as-a-judge, retrieval-based, semantic similarity-based |
+| Evaluation Dimension | Aspect of the system being evaluated                          | attribution, citation, correctness, linguistic quality, preservation, relevance, retrieval                     |
+| Description          | Short description of the metric (from the paper if available) | /                                                                                                              |
+| Source               | URL of the paper describing the metric                        | /                                                                                                              |
+
+**datasets.csv** This dataset contains all datasets and benchmarks extracted from publications.csv:
+
+| Column       | Description                                    | Labels |
+| ------------ | ---------------------------------------------- |--------|
+| Dataset      | Name of the dataset                            | /      |
+| Benchmark    | Benchmark the dataset belongs to (if any)      | /      |
+| Dataset task | Task(s) the dataset is designed for            | /      |
+| Source       | URL to the dataset or the paper introducing it | /      |
 
 
 ## License
