@@ -180,7 +180,7 @@ at least twice among surveyed studies.
 
 If you use our work, please cite:
 
-'''bibtex
+```bibtex
 @misc{schreieder2026attributioncitationquotationsurvey,
       title={Attribution, Citation, and Quotation: A Survey of Evidence-based Text Generation with Large Language Models}, 
       author={Tobias Schreieder and Tim Schopf and Michael Färber},
@@ -190,7 +190,7 @@ If you use our work, please cite:
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2508.15396}, 
 }
-'''
+```
 
 ## License
 [License](LICENSE)
