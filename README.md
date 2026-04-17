@@ -8,6 +8,7 @@ This repository contains the annotated data for our survey of evidence-based tex
 - [Datasets](#datasets)
 - [Taxonomy](#taxonomy)
 - [Evaluation](#evaluation)
+- [Citation](#citation)
 - [License](#license)
 
 
@@ -174,6 +175,22 @@ Further we provide an overview of evaluation approaches for evidence-based text 
 identified 300 distinct metrics, each targeting different aspects. Figure 3 offers structured overview of frequently 
 reused metrics categorized by evaluation method and evaluation dimension. We define reused resources as those employed 
 at least twice among surveyed studies.
+
+# Citation
+
+If you use our work, please cite:
+
+'''bibtex
+@misc{schreieder2026attributioncitationquotationsurvey,
+      title={Attribution, Citation, and Quotation: A Survey of Evidence-based Text Generation with Large Language Models}, 
+      author={Tobias Schreieder and Tim Schopf and Michael Färber},
+      year={2026},
+      eprint={2508.15396},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2508.15396}, 
+}
+'''
 
 ## License
 [License](LICENSE)
