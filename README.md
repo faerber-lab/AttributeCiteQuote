@@ -181,14 +181,22 @@ at least twice among surveyed studies.
 If you use our work, please cite:
 
 ```bibtex
-@misc{schreieder2026attributioncitationquotationsurvey,
-      title={Attribution, Citation, and Quotation: A Survey of Evidence-based Text Generation with Large Language Models}, 
-      author={Tobias Schreieder and Tim Schopf and Michael Färber},
-      year={2026},
-      eprint={2508.15396},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2508.15396}, 
+@inproceedings{schreieder-etal-2026-attribution,
+    title = "Attribution, Citation, and Quotation: A Survey of Evidence-based Text Generation with Large Language Models",
+    author = {Schreieder, Tobias  and
+      Schopf, Tim  and
+      F{\"a}rber, Michael},
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    doi = "10.18653/v1/2026.acl-long.1430",
+    pages = "30956--31000"
 }
 ```
 
